@@ -27,9 +27,9 @@ void draw() {
   triangle(nx-ntam, ny, nx+ntam, ny, nx, ny+ntam/2);
   nx+=nvel;
   if (nx>width+ntam) {
+    ntam = random(30, 50);
     nx =-ntam;
     ny = random(ntam/2, height/2);
-    ntam = random(30, 50);
     nvel = random(2, 4);
   }
 
