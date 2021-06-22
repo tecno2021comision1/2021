@@ -154,7 +154,7 @@ void keyPressed() {
   if (keyCode == ' ' || keyCode == UP) { // con espaciador o flecha arriba
     balaDisparada = true; // disparamos la bala
   }
-  if (keyCode== ENTER) {
+  if (keyCode== ENTER && !estado.equals("jugando")) { // funciona solo si está en cualquier estado MENOS "jugando"
     setup();
     estado = "jugando";
     segundos = 0;
