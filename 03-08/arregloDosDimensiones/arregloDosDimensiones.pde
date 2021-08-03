@@ -1,5 +1,5 @@
 // Horacio Quiroga
-// Edga Alan Poe
+// Edgar Alan Poe
 // Ray Bradbury
 // J L Borges  
 
