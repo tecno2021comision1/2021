@@ -20,7 +20,7 @@ void setup() {
 void draw() {
   background(0);
   for (int i=0; i<cant; i++) {
-    if (px[i]>width+tam[i]/2 || px[i]<tam[i]/2 || py[i]<-tam[i]/2) {
+    if (px[i]>width+tam[i]/2 || px[i]<-tam[i]/2 || py[i]<-tam[i]/2) {
       px[i] = mouseX;
       py[i] = mouseY;
     }
