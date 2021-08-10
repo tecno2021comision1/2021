@@ -1,3 +1,5 @@
+// Juego en desarrollo
+
 int cant = 3;
 int tam;
 int turno;
