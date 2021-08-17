@@ -11,7 +11,7 @@ void setup() {
 }
 void draw() {
   background(255);
-  if (frameCount%6==0) {
+  if (frameCount%6==0) { // 
     if (numImag<horse.length-1) {
       numImag ++;
     } else {
