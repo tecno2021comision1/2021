@@ -1,0 +1,13 @@
+void parrafos(){
+frases[0] = "Comienza con el título";
+frases[1] = "sigue con algo introductorio";
+frases[2] = "luego presenta algún problema";
+frases[3] = "el problema parece resolverse";
+frases[4] = "se complica por completo";
+frases[5] = "hay que seguir intentando";
+frases[6] = "parece todo perdido";
+frases[7] = "algo de esperanza";
+frases[8] = "los tiempos se aceleran";
+frases[9] = "climax final, se resuelve";
+frases[10] = "el protagonista vence o muere";
+}
